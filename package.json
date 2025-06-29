@@ -1,15 +1,23 @@
 {
-  "name": "backend-delete-put",
+  "name": "bac-front_hw-cl",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BISSISDE/Bac-Front_HW-CL.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BISSISDE/Bac-Front_HW-CL/issues"
+  },
+  "homepage": "https://github.com/BISSISDE/Bac-Front_HW-CL#readme",
+  "description": "",
   "dependencies": {
     "express": "^5.1.0"
-  },
-  "description": ""
+  }
 }
