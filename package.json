@@ -1,9 +1,9 @@
 {
   "name": "bac-front_hw-cl",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon sql_nodejs/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,9 @@
     "url": "https://github.com/BISSISDE/Bac-Front_HW-CL/issues"
   },
   "homepage": "https://github.com/BISSISDE/Bac-Front_HW-CL#readme",
-  "description": "",
   "dependencies": {
-    "express": "^5.1.0"
-  }
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "description": ""
 }
